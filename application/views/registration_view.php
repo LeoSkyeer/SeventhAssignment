@@ -59,7 +59,7 @@
             </div>
 
 <!--             Гугл Рекаптча-->
-            <div class="g-recaptcha" data-sitekey="6LfxTQcUAAAAAAgYCy7PKVA4IvM4oLfrVO1bivlS" style="align-content: center"></div>
+            <div class="g-recaptcha" data-sitekey="6Ld4_QgUAAAAAKpp8tbcB8EpV8ExTcZjMxLUF1Ch" style="align-content: center"></div>
 
 
             <!--Кнопка-->

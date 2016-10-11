@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Eloquent\\Enumeration\\' => array($vendorDir . '/eloquent/enumeration/src'),
 );

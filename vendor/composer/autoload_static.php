@@ -6,6 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit9ef418383fdfbb304d0ef2207cc96e74
 {
+    public static $prefixLengthsPsr4 = array (
+        'E' => 
+        array (
+            'Eloquent\\Enumeration\\' => 21,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Eloquent\\Enumeration\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/eloquent/enumeration/src',
+        ),
+    );
+
     public static $prefixesPsr0 = array (
         'V' => 
         array (
@@ -37,6 +51,8 @@ class ComposerStaticInit9ef418383fdfbb304d0ef2207cc96e74
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9ef418383fdfbb304d0ef2207cc96e74::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9ef418383fdfbb304d0ef2207cc96e74::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit9ef418383fdfbb304d0ef2207cc96e74::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit9ef418383fdfbb304d0ef2207cc96e74::$classMap;
 
